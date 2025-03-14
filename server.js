@@ -7,7 +7,7 @@ import { globalErrHandler } from "./middleware/middleware.js";
 const app = express();
 const port = process.env.PORT || 4444;
 const corsOption = {
-    origin: 'http://localhost:3000', // Allow requests from your frontend
+    origin: 'https://trickyhash-git-main-gaming-warriors-projects.vercel.app/', // Allow requests from your frontend
     methods: ['GET', 'PUT'], // Allow specific HTTP methods
     // allowedHeaders: ['Content-Type', 'Authorization'], // Allow specific headers
 };
