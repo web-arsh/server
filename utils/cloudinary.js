@@ -13,7 +13,7 @@ const storage = new CloudinaryStorage({
         folder: "trickyhash",
         allowed_formats: ["jpg","png","jpeg"],
         type: "authenticated",    
-        transformation: [{quality: "auto"}],
+        transformation: [{quality: 100}],
     }
 });
 
